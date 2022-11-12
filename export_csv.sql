@@ -1,0 +1,15 @@
+COPY (SELECT * FROM actor) TO '/tmp/actors.csv' WITH CSV header;
+COPY (SELECT * FROM address) TO '/tmp/addresses.csv' WITH CSV header;
+COPY (SELECT * FROM category) TO '/tmp/categories.csv' WITH CSV header;
+COPY (SELECT * FROM city) TO '/tmp/cities.csv' WITH CSV header;
+COPY (SELECT * FROM country) TO '/tmp/countries.csv' WITH CSV header;
+COPY (SELECT * FROM customer) TO '/tmp/customer.csv' WITH CSV header;
+COPY (SELECT * FROM film) TO '/tmp/film.csv' WITH CSV header;
+COPY (SELECT * FROM film_actor) TO '/tmp/film_actor.csv' WITH CSV header;
+COPY (SELECT * FROM film_category) TO '/tmp/film_category.csv' WITH CSV header;
+COPY (SELECT * FROM inventory) TO '/tmp/inventory.csv' WITH CSV header;
+COPY (SELECT * FROM language) TO '/tmp/language.csv' WITH CSV header;
+COPY (SELECT * FROM payment) TO '/tmp/payment.csv' WITH CSV header;
+COPY (SELECT * FROM rental) TO '/tmp/rental.csv' WITH CSV header;
+COPY (SELECT * FROM staff) TO '/tmp/staff.csv' WITH CSV header;
+COPY (SELECT * FROM store) TO '/tmp/store.csv' WITH CSV header;
