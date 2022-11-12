@@ -1,5 +1,5 @@
 COPY (
-    select rental.rental_id,
+    select rental.customer_id,
            rental.rental_date,
            rental.return_date,
            inventory.film_id,
